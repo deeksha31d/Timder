@@ -1,0 +1,166 @@
+body {
+  font-family: 'Arial';
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Calibri';
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Arial';
+}
+
+h2 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*headings*/
+.big-heading {
+  font-weight: bolder;
+  font-size: 3.7rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+/*sections*/
+.colored-section{
+  background-color: #E23E57;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+
+}
+/*tittle section*/
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/*navbar section*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Arial';
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Arial';
+  font-weight: lighter;
+}
+
+/*download button*/
+.download-button {
+  margin: 10% 3% 10% 0;
+}
+
+/*tittle image*/
+.tittle-image {
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 20%;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+  margin: 5% 0 5% 0;
+}
+
+.feature-section {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.icon {
+  color: #FF6B6B;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #E23E57;
+}
+
+/*testimonial section*/
+#testimonials {
+  background-color: #FF6B6B;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #FF6B6B;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*pricing secction*/
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width:1189px) {
+  #title {
+    container-fluid
+  }
+
+  .tittle-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
