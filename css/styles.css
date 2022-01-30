@@ -48,7 +48,9 @@ p {
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
-
+#title{
+  text-align: left;
+}
 /*navbar section*/
 .navbar {
   padding: 0 0 4.5rem;
